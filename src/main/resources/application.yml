@@ -1,0 +1,18 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 5960
+spring:
+  application:
+    name: authormanagement
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:admin@bookservice.kgftc.mongodb.net/?retryWrites=true&w=majority&appName=BookService
+      database: authormanagement
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
