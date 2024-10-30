@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://book_eureka:8761/eureka/
 server:
   port: 5960
 spring:
